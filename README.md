@@ -1,6 +1,6 @@
 ## Intro
 * This is a tool for my blog ([40tude.fr](https://www.40tude.fr/))
-* Evaluate, in a markdown file, the number of words which will be read once the post (in .md format) is converted into html (think about Jekyll for GitHub for example)
+* It evaluates, in a markdown file, the number of words which will be read once the post (in .md format) is converted into html (think about Jekyll for GitHub for example)
 * Can help to decide if it is time to split the post in 2
 * Basically the app opens the markdown file then it remove
     * code section
