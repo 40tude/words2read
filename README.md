@@ -11,9 +11,6 @@
     * If the count is above the limit (3_000) then the first string after the limit is displayed. This helps to find it later.
 
 
-## Usage
-* `words2read ./mandelbrot_multithread.md` 
-* `words2read "C:\Users\phili\OneDrive\Documents\40tude.github.io\docs\06_programmation\rust\011_api_heroku\api_heroku.md"`
 
 
 
@@ -22,9 +19,19 @@
 ```Powershell
 cargo install --path .
 ```
+## Usage
+* `words2read ./mandelbrot_multithread.md`
+* `words2read "C:\Users\phili\OneDrive\Documents\40tude.github.io\docs\06_programmation\rust\011_api_heroku\api_heroku.md"`
 
 
+## Uninstall
 
+```powershell
+cargo uninstall words2read
+```
+
+## During development
+* `cargo run --my_file.md`
 
 
 
