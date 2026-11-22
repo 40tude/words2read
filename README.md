@@ -19,6 +19,8 @@
 ```Powershell
 cargo install --path .
 ```
+The binary will be in `C:\Users\phili\.cargo\bin\words2read.exe`
+
 ## Usage
 * `words2read ./mandelbrot_multithread.md`
 * `words2read "C:\Users\phili\OneDrive\Documents\40tude.github.io\docs\06_programmation\rust\011_api_heroku\api_heroku.md"`
